@@ -15,7 +15,7 @@ using Newtonsoft.Json;
 
 namespace AzureClientFunction
 {
-    public class ClientAPI
+    public static class ClientAPI
     {
         [FunctionName("CreateClient")]
         public static async Task<IActionResult> CreateClient(
